@@ -1,0 +1,314 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+ 
+.navbar-brand img{
+width: 135px;
+}
+    
+.navbar{
+background-color:black;
+width: 100%;
+font-family: 'Playfair Display', serif; 
+ 
+}
+
+.navbar  a{
+color:white;
+}
+
+.nav-link:hover{
+    border-bottom :1px solid white;
+    transition:0.3s;
+}
+
+
+
+.dropdown-menu a{
+    color:white;
+    background: black;
+    font-size: 15px;  
+}
+.dropdown-menu a:focus{
+    background-color: peachpuff;
+    color: black;
+}
+
+.dropdown-menu{
+    background:black;
+}
+
+.banner{
+    width:100%;
+    height:100vh;
+    overflow: hidden;
+    position: relative;
+    }
+    
+    .banner video{
+        position:absolute;
+        top: 0;
+        left:0;
+        object-fit: cover;
+        width: 100%;
+        height: 100vh;
+        pointer-events: none;
+    }
+    .content h1{
+        color:black;
+        font-family:'Playfair Display', serif;
+        font-size: 35px;
+        margin:0;
+        text-transform: uppercase;
+        padding-bottom: 12px;
+    }
+    .content p{
+        color:black;
+        font-family: 'Playfair Display', serif;
+        font-size: 35px;
+        margin: 0;
+        text-transform: uppercase;
+        text-align: center;
+        height: 80px;
+        width: 100%;
+    }
+    
+    
+    .content{
+    position: absolute;
+    width: 1000px;
+    text-align: center;
+    top: 140px;
+    left: 170px;
+    }
+    
+    .mybtn button {
+        color:black;
+        background-color:whitesmoke;
+        padding:10px 25px;
+        border-radius: 20px;
+        font-family:'Playfair Display', serif;
+        margin-top: 320px;
+        margin-left: 55px;
+        height: 40px;
+        width: 15%;
+        border: none;
+    }
+    .mybtn button:focus{
+        outline: none;
+    }
+    
+    
+    .mybtn button:hover{
+    color:#DE3163;
+    transition:1s;
+    transform: scale(1.1);
+    }
+      
+     
+    .carousel-item img{
+        width: 100%;
+        height:100vh;
+    }
+    .carousel-item{
+        height: 78vh;
+        width: 100%;
+    }
+    .mybtn-1 button {
+        color:black;
+        background-color:whitesmoke;
+        padding:10px 25px;
+        border-radius: 20px;
+        font-family:'Playfair Display', serif;
+        margin-top: 370px;
+        margin-left: 30px;
+        height: 40px;
+        width: 20%;
+        border: none;
+    }
+    .mybtn-1 button:focus{
+        outline: none;
+    }
+    
+    .mybtn-1 button:hover{
+    color: #DE3163;
+    transition:1s;
+    transform: scale(1.1);
+    }
+    .mygalleryimg, p{
+        font-size: 50px;
+        font-family:'Playfair Display', serif;
+        color:whitesmoke;
+        height: 80px;
+        width: 100%;
+        margin-right: 200px;
+        text-align: center;
+        }
+        .mygalleryimg{
+            background-color:black;
+            height: 194vh;
+            width: 100%;
+            
+        }
+        
+        .mygalleryimg img{
+            background:whitesmoke;
+            width: 300px;
+            height: 200px;
+            border: 4px solid white;
+            border-radius: 4px;
+            background: black;
+        }
+        .mygalleryimg img:hover{
+        transition:1s;
+        transform: scale(1.1);
+        }
+        .abouttext{
+            width: 100%;
+            height: 70vh;
+            background:black;
+        }
+        .abouttext-img{
+        height: 70vh;
+        width: 100%;
+        position: relative;
+        }
+        .abouttext p{
+            top: 0px;
+            left: 0px;
+            text-align: justify;
+            font-size: 20px;
+            height: 70vh;
+            width: 100%;
+            font-family: 'Poppins', sans-serif; 
+            color:wheat;
+            position: absolute;
+            padding-left: 65px;
+            padding-right: 85px;
+            padding-top: 120px;
+            padding-bottom: 7px;
+            background: rgba(0,0,0,0.3);
+        }
+        .about-logoics img {
+            height: 170px;
+            width: 70%;
+            margin-top: 130px;
+            margin-left: 45px;  
+        }
+
+        <!--footer here-->
+        
+        
+        
+.footer-top h4{
+    color:white;
+}
+.footer-top h3{
+    font-size: 15px;
+    margin-left: 10px;
+}
+.footer-top p{
+    color:whitesmoke;
+    line-height: 25px;
+    font-size: 15px;
+}
+.segment-one h4{
+font-family: 'Playfair Display', serif;
+color:whitesmoke;
+margin-left: 10px ;
+font-size: 20px;
+}
+.segment-one h4{
+    color:whitesmoke;
+    font-family:'Poppins', sans-serif;
+    text-transform: uppercase;
+}
+.segment-one h4:before{
+content: '|';
+color: whitesmoke;
+padding-right: 10px;
+}
+.segment-one ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+
+.segment-one ul li a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+.segment-two h4{
+    color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;   
+}
+.segment-two h4:before{
+    content: '|';
+    color:whitesmoke;
+    padding-right: 10px;
+ }
+.segment-two a{
+    background:black;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 50%;
+}
+.segment-two a i{
+    font-size: 20px;
+    color:whitesmoke;
+    padding: 40px 22px;
+    margin-right: 40px;
+    
+}
+.segment-three h4{
+    color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+}
+.segment-three h4:before{
+    content: '|';
+    color:whitesmoke;
+    padding-right: 10px;
+}
+.footer-top{
+    background-color: black;
+    margin-top: 5px;
+}
+.segment-three form input[type=submit] {
+    background: black;
+    border: none;
+    padding: 3px 15px;
+    margin-left: -5px;
+    color: whitesmoke;
+    text-transform: uppercase;
+}
+.footer-top{
+    padding: 50px 0;
+}
+
+
+/* responsive css */
+@media only screen and (min-width:768px) and (max-width:991px){
+    .md-mb-30{
+        margin-bottom: 30px;
+    }
+}
+@media only screen and (max-width: 767px){
+    .sm-mb-30{
+        margin-bottom: 30px;
+    }
+}
+.about-logo img{
+    margin-top: 65px;
+    margin-bottom: 67px;
+    height: 40px;
+    width: 50px;
+    margin-right: 25px;
+}
+        
+        
+        
